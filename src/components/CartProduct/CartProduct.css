@@ -1,0 +1,22 @@
+.cartproduct {
+    border: 2px solid lightgoldenrodyellow;
+    border-radius: 10px;
+}
+
+
+.cartproduct img {
+    height: 200px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+svg {
+    height: 20px;
+    cursor: pointer;
+
+}
