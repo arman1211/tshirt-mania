@@ -2,12 +2,10 @@ import './Cart.css'
 import React, { useState } from 'react';
 import CartProduct from '../CartProduct/CartProduct';
 
-const Cart = ({ cart }) => {
-    const [items, setItems] = useState([])
-    const handleRemoveCart = item => {
+const Cart = ({ cart, handleRemoveCart }) => {
+    console.log(handleRemoveCart)
 
 
-    }
     // console.log(cart)
     return (
         <div>
