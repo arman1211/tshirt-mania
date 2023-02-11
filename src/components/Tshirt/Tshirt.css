@@ -1,0 +1,41 @@
+.tshirt-details {
+    border: 3px solid lightgoldenrodyellow;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.tshirt-details img {
+    height: 250px;
+}
+
+.buy-button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-in-out;
+}
+
+.buy-button:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.tshirt-price {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    color: #082709;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+
+}
